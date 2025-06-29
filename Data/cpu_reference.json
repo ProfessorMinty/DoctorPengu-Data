@@ -1,7 +1,310 @@
-{
-  "i7-9750H": { "generation": "9th Gen", "socket": "FCBGA1440" },
-  "i7-10750H": { "generation": "10th Gen", "socket": "FCBGA1440" },
-  "i7-12700K": { "generation": "12th Gen", "socket": "LGA1700" },
-  "Ryzen 5 5600X": { "generation": "5000 Series", "socket": "AM4" },
-  "Ryzen 7 5800X": { "generation": "5000 Series", "socket": "AM4" }
-}
+[
+  {
+    "socket": "LGA 1700",
+    "chipsets": [
+      "Z690",
+      "B660",
+      "H670",
+      "H610",
+      "Z790",
+      "B760",
+      "H770"
+    ],
+    "compatible_cpus": [
+      "Intel 12th Gen Core",
+      "Intel 13th Gen Core",
+      "Intel 14th Gen Core"
+    ]
+  },
+  {
+    "socket": "LGA 1200",
+    "chipsets": [
+      "H410",
+      "B460",
+      "H470",
+      "Z490",
+      "B560",
+      "H570",
+      "Z590"
+    ],
+    "compatible_cpus": [
+      "Intel 10th Gen Core",
+      "Intel 11th Gen Core"
+    ]
+  },
+  {
+    "socket": "LGA 1151",
+    "chipsets": [
+      "H110",
+      "B150",
+      "H170",
+      "Z170",
+      "B250",
+      "H270",
+      "Z270",
+      "B360",
+      "H370",
+      "Z370",
+      "Z390"
+    ],
+    "compatible_cpus": [
+      "Intel 6th Gen Core",
+      "Intel 7th Gen Core",
+      "Intel 8th Gen Core",
+      "Intel 9th Gen Core"
+    ]
+  },
+  {
+    "socket": "LGA 1155",
+    "chipsets": [
+      "H61",
+      "B65",
+      "Q65",
+      "H67",
+      "P67",
+      "Z68",
+      "B75",
+      "Q75",
+      "H77",
+      "Z77"
+    ],
+    "compatible_cpus": [
+      "Intel 2nd Gen Core",
+      "Intel 3rd Gen Core"
+    ]
+  },
+  {
+    "socket": "LGA 1156",
+    "chipsets": [
+      "H55",
+      "H57",
+      "P55",
+      "Q57"
+    ],
+    "compatible_cpus": [
+      "Intel 1st Gen Core"
+    ]
+  },
+  {
+    "socket": "LGA 1366",
+    "chipsets": [
+      "X58"
+    ],
+    "compatible_cpus": [
+      "Intel Core i7 (Nehalem, Westmere)"
+    ]
+  },
+  {
+    "socket": "LGA 2011",
+    "chipsets": [
+      "X79",
+      "X99"
+    ],
+    "compatible_cpus": [
+      "Intel Core i7 Extreme",
+      "Xeon E5"
+    ]
+  },
+  {
+    "socket": "LGA 775",
+    "chipsets": [
+      "P35",
+      "X38",
+      "P45",
+      "X48",
+      "G31",
+      "G41"
+    ],
+    "compatible_cpus": [
+      "Intel Core 2 Duo",
+      "Core 2 Quad",
+      "Pentium Dual-Core"
+    ]
+  },
+  {
+    "socket": "Socket 478",
+    "chipsets": [
+      "i845",
+      "i865",
+      "i875"
+    ],
+    "compatible_cpus": [
+      "Pentium 4",
+      "Celeron"
+    ]
+  },
+  {
+    "socket": "Socket 370",
+    "chipsets": [
+      "i810",
+      "i815"
+    ],
+    "compatible_cpus": [
+      "Pentium III",
+      "Celeron"
+    ]
+  },
+  {
+    "socket": "Socket 423",
+    "chipsets": [
+      "i850"
+    ],
+    "compatible_cpus": [
+      "Pentium 4 (Willamette)"
+    ]
+  },
+  {
+    "socket": "Socket 462 (Socket A)",
+    "chipsets": [
+      "KT133",
+      "KT266",
+      "nForce2"
+    ],
+    "compatible_cpus": [
+      "Athlon",
+      "Duron",
+      "Athlon XP"
+    ]
+  },
+  {
+    "socket": "Socket 939",
+    "chipsets": [
+      "nForce3",
+      "nForce4"
+    ],
+    "compatible_cpus": [
+      "Athlon 64",
+      "Athlon 64 X2"
+    ]
+  },
+  {
+    "socket": "Socket 754",
+    "chipsets": [
+      "nForce3",
+      "VIA K8T800"
+    ],
+    "compatible_cpus": [
+      "Athlon 64",
+      "Sempron"
+    ]
+  },
+  {
+    "socket": "AM2",
+    "chipsets": [
+      "nForce 500",
+      "AMD 690"
+    ],
+    "compatible_cpus": [
+      "Athlon 64",
+      "Athlon 64 X2",
+      "Sempron"
+    ]
+  },
+  {
+    "socket": "AM2+",
+    "chipsets": [
+      "740G",
+      "770",
+      "780G",
+      "790FX"
+    ],
+    "compatible_cpus": [
+      "Phenom",
+      "Athlon 64 X2"
+    ]
+  },
+  {
+    "socket": "AM3",
+    "chipsets": [
+      "760G",
+      "770",
+      "785G",
+      "790FX",
+      "790X",
+      "880G",
+      "890GX",
+      "890FX"
+    ],
+    "compatible_cpus": [
+      "Phenom II",
+      "Athlon II"
+    ]
+  },
+  {
+    "socket": "AM3+",
+    "chipsets": [
+      "970",
+      "990X",
+      "990FX"
+    ],
+    "compatible_cpus": [
+      "AMD FX"
+    ]
+  },
+  {
+    "socket": "AM4",
+    "chipsets": [
+      "A320",
+      "B350",
+      "B450",
+      "X370",
+      "X470",
+      "B550",
+      "X570"
+    ],
+    "compatible_cpus": [
+      "Ryzen 1000",
+      "Ryzen 2000",
+      "Ryzen 3000",
+      "Ryzen 4000",
+      "Ryzen 5000"
+    ]
+  },
+  {
+    "socket": "AM5",
+    "chipsets": [
+      "A620",
+      "B650",
+      "X670",
+      "X670E"
+    ],
+    "compatible_cpus": [
+      "Ryzen 7000"
+    ]
+  },
+  {
+    "socket": "FM1",
+    "chipsets": [
+      "A55",
+      "A75"
+    ],
+    "compatible_cpus": [
+      "Llano APUs"
+    ]
+  },
+  {
+    "socket": "FM2",
+    "chipsets": [
+      "A55",
+      "A75",
+      "A85X"
+    ],
+    "compatible_cpus": [
+      "Trinity",
+      "Richland APUs"
+    ]
+  },
+  {
+    "socket": "FM2+",
+    "chipsets": [
+      "A58",
+      "A68H",
+      "A78",
+      "A88X"
+    ],
+    "compatible_cpus": [
+      "Kaveri",
+      "Godavari APUs"
+    ]
+  }
+]
