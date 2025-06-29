@@ -1,0 +1,7 @@
+{
+  "i7-9750H": { "generation": "9th Gen", "socket": "FCBGA1440" },
+  "i7-10750H": { "generation": "10th Gen", "socket": "FCBGA1440" },
+  "i7-12700K": { "generation": "12th Gen", "socket": "LGA1700" },
+  "Ryzen 5 5600X": { "generation": "5000 Series", "socket": "AM4" },
+  "Ryzen 7 5800X": { "generation": "5000 Series", "socket": "AM4" }
+}
